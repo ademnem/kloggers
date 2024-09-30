@@ -3,7 +3,6 @@
 
 #include <string>
 
-std::string get_key_name( int key );
-
+std::string get_key_name( int ascii_num );
 
 #endif 
