@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/Adam Nam/Documents/projects/kloggers/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c \"C:\\Users\\Adam Nam\\Documents\\projects\\kloggers\\src\\main.cpp\"",
+  "file": "C:/Users/Adam Nam/Documents/projects/kloggers/src/main.cpp",
+  "output": "CMakeFiles/main.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Adam Nam/Documents/projects/kloggers/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\keys.cpp.obj -c \"C:\\Users\\Adam Nam\\Documents\\projects\\kloggers\\src\\keys.cpp\"",
+  "file": "C:/Users/Adam Nam/Documents/projects/kloggers/src/keys.cpp",
+  "output": "CMakeFiles/main.dir/src/keys.cpp.obj"
+}
+]
