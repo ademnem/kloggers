@@ -19,13 +19,10 @@ std::string get_key_name( const int& ascii_num, const bool& shift, const bool& c
     
     
     if( ctrl && (ascii_num != VK_CONTROL) && (ascii_num != VK_LCONTROL) && (ascii_num != VK_RCONTROL) )
-        ascii_string += "CTRL + ";
+        ascii_string += "CTRL+";
 
 
     switch( ascii_num ) {
-
-        case VK_CONTROL:
-            break; 
 
         case VK_RCONTROL:
             ascii_string += "RCTRL";
@@ -33,10 +30,7 @@ std::string get_key_name( const int& ascii_num, const bool& shift, const bool& c
 
         case VK_LCONTROL:
             ascii_string += "LCTRL";
-            break;
-            
-        case VK_SHIFT: 
-            break;
+            break;            
 
         case VK_RSHIFT:
             ascii_string += "RSHIFT";
@@ -44,6 +38,14 @@ std::string get_key_name( const int& ascii_num, const bool& shift, const bool& c
 
         case VK_LSHIFT:
             ascii_string += "LSHIFT";
+            break;
+
+        case VK_RMENU:
+            ascii_string += "RALT";
+            break;
+
+        case VK_LMENU:
+            ascii_string += "LALT";
             break;
 
         case VK_LBUTTON:
