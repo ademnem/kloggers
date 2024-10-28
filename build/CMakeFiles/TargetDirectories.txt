@@ -1,3 +1,0 @@
-C:/Users/Adam Nam/Documents/projects/kloggers/build/CMakeFiles/main.dir
-C:/Users/Adam Nam/Documents/projects/kloggers/build/CMakeFiles/edit_cache.dir
-C:/Users/Adam Nam/Documents/projects/kloggers/build/CMakeFiles/rebuild_cache.dir
