@@ -1,0 +1,9 @@
+
+
+
+# ignore build directory with executables stored in it
+build/
+
+# files produced from key logging
+.test
+.txt

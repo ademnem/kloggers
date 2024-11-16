@@ -28,7 +28,7 @@ int main(int argc, char* argv[]) {
                     std::string key_name = get_key_name(key, shift, ctrl, capslock, numlock);
                     std::cout << key_name << std::endl; 
 
-                    output << key_name;
+                    output << key_name << ' ';
                     output.flush();
                     break;
                 }
