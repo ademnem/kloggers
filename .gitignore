@@ -4,3 +4,4 @@ build/
 # files produced from key logging
 .test
 .txt
+!CMakeLists.txt
