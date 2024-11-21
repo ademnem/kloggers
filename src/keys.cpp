@@ -13,6 +13,31 @@
 #define VK_NINE 0x39  
 
 
+bool sys_capslock = GetKeyState(VK_CAPITAL) & 0x0001;
+bool sys_numlock = GetKeyState(VK_NUMLOCK) & 0x0001;
+bool sys_shift = false;
+bool sys_ctrl = false;
+
+
+std::string get_key() { 
+    while( true ) {
+        for( int key = 1; key <= 255; ++key ) {              
+            if( key != VK_SHIFT && key != VK_CONTROL && key != VK_MENU && GetAsyncKeyState(key) == -32767 ) {
+                
+                sys_capslock = GetKeyState(VK_CAPITAL) & 0x0001;
+                sys_numlock = GetKeyState(VK_NUMLOCK) & 0x0001;
+                 
+                sys_shift = GetKeyState(VK_SHIFT) & 0x1000;
+                sys_ctrl = GetKeyState(VK_CONTROL) & 0x1000;
+
+                std::string key_name = get_key_name(key, sys_shift, sys_ctrl, sys_capslock, sys_numlock);
+                return key_name;
+            }
+        }
+    }
+}
+
+
 std::string get_key_name( const int& ascii_num, const bool& shift, const bool& ctrl, const bool& capslock, const bool& numlock ) {
 
     std::string ascii_string = ""; 
