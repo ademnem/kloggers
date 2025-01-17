@@ -1,6 +1,6 @@
 # Key Logger for Windows Devices
 
-This is a project that I initially created in order to learn more about cybersecurity. Through this I gained more insight into operating systems and programming in C++. All code is for research purposes so please refrain from using any of this for malicious purposes. Thank you.
+This is a project that I initially created in order to learn more about cybersecurity. Through this I gained more insight into operating systems and programming in C++. All code is for research purposes, please refrain from using any of this for any malicious activities. Thank you and have a nice day.
 
 To create the build directory use:
 ```{bash}
